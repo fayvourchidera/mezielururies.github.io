@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emezie fashion world</title>
+    <link rel="stylesheet" href="emezie project.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;1,200;1,300&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css" integrity="sha384-X8QTME3FCg1DLb58++lPvsjbQoCT9bp3MsUU3grbIny/3ZwUJkRNO8NPW6zqzuW9" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="header">
+
+        <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="./logo.png" width="125px">
+            </div>
+            <nav>
+                <ul id="menuitems">
+                <li><a href="">home</a></li>
+                <li><a href="">products</a></li>
+                <li><a href="">about</a></li>
+                <li><a href = "mailto: Emeluxuries@gmail.com">contact</a></li>
+                <li><a href="">account</a></li>
+            </ul>
+            </nav>
+            <img src="./cart.png" width="30px" height="30px">
+            <img src="./menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <h1>Best deals on all kinds of<br>men wears,<br>women wears,<br>kids wears,<br>foot wears<br>cool bags</h1>
+                <a href="" class="btn">Check us out &#8594;</a>
+            </div>
+            <div class="col-2">
+                <img src="./fashion (1).jpg">
+            </div>
+        </div>
+    </div>
+</div>
+<!----featured section------->
+<div class="categories">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <img src="./fashion (31).jpg">
+            </div>
+            <div class="col-3">
+                <img src="./fashion (51).jpg">
+            </div>
+            <div class="col-3">
+                <img src="./fashion (9).jpg">
+            </div>
+        </div>
+    </div>
+   
+</div>
+
+<!----featured products------->
+<div class="small-container">
+    <h2 class="title">Featured products</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="./fashion (6).jpg">
+            <h4>quality top</h4>
+            <p>₦3500</p>
+        </div>
+        <div class="col-4">
+            <img src="./fashion (8).png">
+            <h4>quality custom designed top</h4>
+            <p>₦3500</p>
+        </div>
+        <div class="col-4">
+            <img src="./fashion (2).jpg">
+            <h4>quality cardigans</h4>
+            <p>₦3500</p>
+        </div>
+        <div class="col-4">
+            <img src="./fashion (4).png">
+            <h4>quality shorts</h4>
+            <p>₦3500</p>
+        </div>
+    </div>
+</div>
+
+<!-----footer----->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>get app</h3>
+                <p>download app for android and apple </p>
+                <div class="app-logo">
+                    <img src="./play-store.png">
+                    <img src="./app-store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="">
+                <p>we provide you the best choice of outfits for different occassions</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>intrested links</h3>
+                <ul>
+                    <li>coupons</li>
+                    <li>blog post</li>
+                    <li>return policy</li>
+                    <li>join affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3><a href = "mailto: Emeluxuries@gmail.com">contact us</h3>
+                <ul>
+                    <li><a href="https://web.facebook.com/profile.php?id=100085080338486">facebook Emezie oo</li>
+                    <li><a href="">twitter Emezie oo</li>
+                    <li><a href="https://www.instagram.com/emezie_oo/">instagram Emezie oo</li>
+                    <li><a href="https://api.whatsapp.com/send?phone=+2348137585863">whatsapp +2348137585863</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">copyright 2022 - snowkid</p>
+    </div>
+</div>
+<script>
+    var menuitems = document.getElementById("menuitems")
+    menuitems.style.maxHeight = "0px";
+    function menutoggle(){
+        if(menuitems.style.maxHeight == "0px")
+        {
+            menuitems.style.maxHeight = "200px"
+        }
+        else
+        {
+            menuitems.style.maxHeight = "0px"
+        }
+
+    }
+</script>
+</body>
+</html>
